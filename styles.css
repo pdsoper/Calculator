@@ -1,0 +1,38 @@
+
+
+.key-1 {
+    position: absolute;
+    top: 90px;
+    left: 90px;
+}
+
+.calc-key {
+    width: 40px;
+    height: 35px;
+    text-align: center;
+}
+
+.rounded-tb {
+    position: absolute;
+    top: 0%;
+    left: 5%;
+    width: 90%;
+    height: 100%;
+    background-color: blue;
+    border-top-left-radius: 65% 10%;
+    border-top-right-radius: 65% 10%;
+    border-bottom-left-radius: 65% 10%;
+    border-bottom-right-radius: 65% 10%;
+}
+
+.key-val {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-top: 20%;
+    color: yellow;
+    text-align: center;
+    font-size: 1em;
+    z-index: 1;
+}
+
