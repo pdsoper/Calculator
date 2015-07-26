@@ -43,7 +43,7 @@ body {
     color: #7B7579;
 }
 
-.display {
+.display-div {
     background-color: #C7C7B0;
     width: 215px;
     height: 45px;
@@ -52,12 +52,12 @@ body {
     border-radius: 5px;
 }
 
-.display-val {
-    font-family: 'Open Sans', Helvetica, sans-serif;
+.display {
+    font-family: monospace;
     color: #555;
     text-align: right;
     font-size: 1.8em;
-    padding-top: 8px;
+    padding-top: 4px;
 }
 
 .keys {
@@ -125,7 +125,7 @@ body {
 }
 
 .key-label {
-    padding-top: 4px;
+    padding-top: 2px;
     width: 100%;
     height: 100%;
     color: white;
@@ -133,6 +133,9 @@ body {
     text-align: center;
 }
 
+.key-label:hover {
+    cursor: pointer;
+}
 
 .base:last-of-type {
     margin-right: 0px;
