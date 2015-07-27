@@ -11,9 +11,21 @@ body {
     margin: auto;
 }
 
+.calc-shadow-div {
+    margin: auto;
+    height: 335px;
+    width: 250px;
+    border-top-left-radius: 100% 10%;
+    border-top-right-radius: 100% 10%;
+    border-bottom-left-radius: 100% 10%;
+    border-bottom-right-radius: 100% 10%;
+    box-shadow: 0px 2px 5px 2px #555;
+    background-color: #ccc;
+}
+
 .calculator {
     height: 335px;
-    width: 260px;
+    width: 250px;
     margin: auto;
     box-shadow: 0px 0px 20px gray;
     background-color: #F3EEE7;
@@ -21,7 +33,7 @@ body {
     border-top-right-radius: 100% 10%;
     border-bottom-left-radius: 100% 10%;
     border-bottom-right-radius: 100% 10%;
-    box-shadow: 0px 5px 10px black;
+    box-shadow: inset 0px 0px 3px 2px gray;
 }
 
 .heading {
@@ -57,7 +69,7 @@ body {
     color: #555;
     text-align: right;
     font-size: 1.8em;
-    padding-top: 4px;
+    padding-top: 8px;
 }
 
 .keys {

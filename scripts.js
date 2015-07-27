@@ -18,26 +18,6 @@ $( document ).ready(function() {
 
     /* Calculator logic */
 
-    /*
-    √ CE clears the current entry without changing the stored value or operator
-    √ AC clears everything
-    √ Pressing a number
-        adds the digit to the displayed value in input mode
-        starts a new value if the last key was an operator or equal or AV or CE
-            This is determined by readyForNext
-    √ Pressing .
-        does nothing in input mode if the numnber already contains a .
-        otherwise, it acts like a digit.
-    Pressing an operator key
-        If the previous pressed key was an oerator, it replaces it
-        If there is a pending operation, it performs it
-        it stores the current value, and the name of the operator
-    Pressing the = keuy
-        Evaluates the pending operation, if any
-        If pressed right after an operator, it clears that operator.
-        If the number in the display has not been editted, still use it in the evaluations.
-    */
-
     function evalStack(val) {
         readyForNext = true;
         hasDot = false;
@@ -199,6 +179,5 @@ $( document ).ready(function() {
         var factor = Math.pow(10, decimals);
         return Math.round(factor * num) / factor;
     }
-
 
 });
